@@ -10,3 +10,6 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+
+myblogs-front-end/node_modules/
+myblogs-front-end/package-lock.json
