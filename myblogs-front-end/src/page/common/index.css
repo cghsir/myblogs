@@ -2,5 +2,341 @@
 * @Author: cghsir
 * @Date:   2017-12-25 15:06:16
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-25 15:06:16
+* @Last Modified time: 2017-12-26 11:43:47
 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F7F7F7;
+    color: #999;
+    font-family: 'Ubuntu Mono',"PingFang SC","Lantinghei SC","Microsoft YaHei",arial,"\5b8b\4f53",sans-serif,tahoma;
+    letter-spacing: 1.5px;
+    /*background: #f6f6f6;
+    font: 12px/1.5 tahoma, arial, Microsoft YaHei, sans-serif;*/
+}
+li{
+    list-style: none;
+}
+img{
+    display: block;
+    border: none;
+}
+label{
+    cursor: pointer;
+}
+input[type='checkbox']{
+    cursor: pointer;
+}
+
+/* 定宽布局 */
+.w{
+    padding: 15px;
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.shadow {
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
+}
+.clear{
+    clear: both;
+}
+
+/* panel */
+.panel{
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.panel .panel-title{
+    padding: 10px;
+    font-size: 14px;
+    color: #444;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+}
+.panel .panel-body{
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* 全局通用样式 */
+/* 隐藏类 */
+.hide{
+    display: none;
+}
+/* 超链样式 */
+.link{
+    color: #999;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link:hover{
+    color: rgb(0, 150, 136);
+}
+.link-text{
+    color: #999;
+    text-decoration: none;
+}
+.green{
+    color: rgb(0, 150, 136);
+}
+/* btn */
+.btn{
+    display: inline-block;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    border: none;
+    background: #c60023;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-mini{
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+/* header样式 */
+.header{
+    padding: 0 20px;
+    height: 54px;
+    line-height: 54px;
+    background: #23262E;
+    opacity:0.9;
+    font-size: 14px;
+    color: rgba(255,255,255,.7);
+}
+.header .logo-con{
+    width: 20%;
+    min-width: 262px;
+    height: 100%;
+    float: left;
+}
+.header .logo-con ._title{
+    display: inline-block;
+    font-size: 23px;
+    font-weight: normal;
+    color: #fff;
+
+}
+.header .logo-con ._title_small{
+    color: #929292;
+}
+.header .menu-con{
+    float: right;
+    margin-right: 30px;
+    height: 50px;
+    line-height: 54px;
+}
+.header .menu-con ul{
+    display: inline-block;
+    float: left;
+}
+.header .menu-con .menu-item{
+    cursor: pointer;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 5px;
+    float: left;
+}
+.header .menu-con .menu-item.active{
+    border-bottom: 4px solid #57b878;
+}
+.header .menu-con .menu-item:hover{
+    border-bottom: 4px solid #57b878;
+}
+
+.header .menu-con .menu-item:hover a{
+    color: #fff;
+}
+.header .menu-con .menu-item a{
+    display: inline-block;
+    color: rgba(255,255,255,.7);
+    font-size: 14px;
+    text-decoration: none;
+    height: 100%;
+}
+.login-con{
+    width: 100px;
+    float: left;
+    line-height: 56px;
+    font-size: 20px;
+}
+.login-con .fa-qq{
+    padding: 10px;
+    cursor: pointer;
+}
+.login-con .fa-qq:hover{
+    color: #fff;
+}
+.login-con .fa-wechat{
+    padding: 10px;
+    cursor: pointer;
+}
+.login-con .fa-wechat:hover{
+    color: #fff;
+}
+
+/* 浮动查询按钮 */
+.search-con{
+    position: fixed;
+    z-index: 1000;
+    background: #23262E;
+    opacity:0.9;
+    font-size: 25px;
+    color: rgba(255,255,255,.7);
+    width: 300px;
+    height: 52px;
+    line-height: 0px;
+    top: 0;
+    right: -250px;
+    border: 1px solid #23262E;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.search-con:hover{
+    top: 55px;
+    right: -1px;
+    color: #fff;
+    transition: all 0.5s linear;
+}
+.search-con .icon-con{
+    float: left;
+    padding: 14px 11px 5px 5px;
+}
+
+.search-con .icon-con .fa-search{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.search-con .search-input{
+    width: 244px;
+    height: 100%;
+    border-style: none;
+    outline: none;
+    font-size: 30px;
+}
+/* 站点通知 */
+.home-tips{
+    padding: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    font-size: 13px;
+    background: #FFFFFF;
+}
+.home-tips i{
+    float: left;
+    color: #009688;
+    font-size: 17px;
+}
+.home-tips .tip-con{
+    margin-left: 20px;
+    height: 17px;
+    line-height: 17px;
+}
+.home-tips .tip-item{
+    float: left;
+}
+
+/* 页面内容容器 */
+.pag-con{
+    width: 772px;
+    /*background: #ccc;*/
+    float: left;
+    min-height: 500px;
+}
+.pag-con .banner{
+    width: 100%;
+    height: 215px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+/* banner */
+.pag-con .banner img{
+    width: 100%;
+    height: 100%;
+}
+.article-header-title{
+    display: inline-block;
+    margin: 11px 0 5px;
+    font-size: 20px;
+    color: #444;
+}
+/* 文章item */
+.article-con{
+    width: 773px;
+}
+.article-item{
+    padding: 15px;
+    height: 133px;
+    margin-bottom: 15px;
+    background: #FFFFFF;
+}
+.article-item:hover{
+    border-left: 5px solid rgb(0, 150, 136);
+    transition: all 0.3s linear;
+    border-radius: 5px;
+    /*background: #eee;*/
+}
+.article-item .article-left{
+    float: left;
+    width: 25%;
+}
+.article-item .article-left img{
+    width: 184px;
+    height: 96px;
+}
+.article-item .article-right{
+    padding-left: 15px;
+    float: left;
+    width: 72%;
+}
+.article-item .article-right .article-title a{
+    font-size: 18px;
+    color: #444;
+}
+.article-item .article-right .article-title a:hover{
+    color: rgb(0, 150, 136);
+}
+.article-item .article-right .article-content{
+    overflow: hidden;
+    max-height: 75px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.article-item .article-footer{
+    margin-top: 10px;
+    font-size: 13px;
+}
+.article-item .article-footer span{
+    margin-right: 14px;
+}
+.article-item .article-footer .article-viewinfo{
+    float: right;
+}
+
+.sider-con{
+    width: 273px;
+    background: #ccc;
+    float: right;
+    min-height: 400px;
+}
+.footer{
+    font-size: 14px;
+    background: #eee;
+    text-align: center;
+}
+
+

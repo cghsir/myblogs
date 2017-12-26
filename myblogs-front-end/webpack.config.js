@@ -2,7 +2,7 @@
 * @Author: cghsir
 * @Date:   2017-12-25 15:00:05
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-25 15:01:43
+* @Last Modified time: 2017-12-26 13:16:32
 */
 var webpack             = require('webpack');
 var ExtractTextPlugin   = require('extract-text-webpack-plugin');
@@ -16,6 +16,7 @@ var getHtmlConfig = function(name, title){
     return {
         template    : './src/view/' + name + '.html',
         filename    : 'view/' + name + '.html',
+        favicon     : './favicon.ico',
         title       : title,
         inject      : true,
         hash        : true,
