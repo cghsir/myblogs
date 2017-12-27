@@ -5,6 +5,7 @@
 目录|说明
 -|-
 [dev-notes](https://github.com/cghsir/myblogs/tree/dev/dev-notes)| 开发日志记录，记录一些重要的配置过程
+[dev-notes/images](https://github.com/cghsir/myblogs/tree/dev/dev-notes/images)| 开发日志记录依赖的一些图片引用，包括一些效果图与说明
 [myblogs-front-end](https://github.com/cghsir/myblogs/tree/dev/myblogs-front-end) | 前端项目根目录
 
 ## myblogs-front-end 前端技术:
