@@ -1,0 +1,173 @@
+/*
+* @Author: cghsir
+* @Date:   2017-12-25 15:06:16
+* @Last Modified by:   cghsir
+* @Last Modified time: 2017-12-26 16:30:52
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F7F7F7;
+    color: #999;
+    font-family: 'Ubuntu Mono',"PingFang SC","Lantinghei SC","Microsoft YaHei",arial,"\5b8b\4f53",sans-serif,tahoma;
+    letter-spacing: 1.5px;
+    /*background: #f6f6f6;
+    font: 12px/1.5 tahoma, arial, Microsoft YaHei, sans-serif;*/
+}
+li{
+    list-style: none;
+}
+img{
+    display: block;
+    border: none;
+}
+label{
+    cursor: pointer;
+}
+input[type='checkbox']{
+    cursor: pointer;
+}
+
+/* 定宽布局 */
+.w{
+    padding: 15px;
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.shadow {
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
+}
+.clear{
+    clear: both;
+}
+
+/* panel */
+.panel{
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.panel .panel-title{
+    padding: 10px;
+    font-size: 14px;
+    color: #444;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+}
+.panel .panel-body{
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* 全局通用样式 */
+/* 隐藏类 */
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+/* 超链样式 */
+.link{
+    color: #999;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link:hover{
+    color: rgb(0, 150, 136);
+}
+.link-text{
+    color: #999;
+    text-decoration: none;
+}
+.green{
+    color: rgb(0, 150, 136);
+}
+/* btn */
+.btn{
+    display: inline-block;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    border: none;
+    background: #c60023;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-mini{
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    padding: 0 10px;
+}
+.loading{
+    margin: 10px auto;
+    display: block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 5px;/* 圆角 */
+    background: url(../../image/loading.gif) no-repeat;
+    opacity: .6;/* 透明度 */
+}
+.modal-loading{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../../image/loading.gif) no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: .6;/* 透明度 */
+    background-color: #eee;
+    z-index: 9999;
+}
+
+
+
+
+
+
+/* 页面内容容器 */
+.pag-con{
+    width: 772px;
+    /*background: #ccc;*/
+    float: left;
+    min-height: 500px;
+}
+
+.article-header-title{
+    display: inline-block;
+    margin: 11px 0 5px;
+    font-size: 20px;
+    color: #444;
+}
+/* 文章item */
+.article-con{
+    width: 773px;
+}
+
+
+.sider-con{
+    width: 273px;
+    background: #ccc;
+    float: right;
+    min-height: 400px;
+}
+.footer{
+    font-size: 14px;
+    background: #eee;
+    text-align: center;
+}
+
+

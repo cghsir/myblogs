@@ -1,0 +1,54 @@
+/*
+* @Author: cghsir
+* @Date:   2017-12-26 15:12:53
+* @Last Modified by:   cghsir
+* @Last Modified time: 2017-12-26 15:14:23
+*/
+.article-item{
+    padding: 15px;
+    height: 133px;
+    margin-bottom: 15px;
+    background: #FFFFFF;
+}
+.article-item:hover{
+    border-left: 5px solid rgb(0, 150, 136);
+    transition: all 0.3s linear;
+    border-radius: 5px;
+    /*background: #eee;*/
+}
+.article-item .article-left{
+    float: left;
+    width: 25%;
+}
+.article-item .article-left img{
+    width: 184px;
+    height: 96px;
+}
+.article-item .article-right{
+    padding-left: 15px;
+    float: left;
+    width: 72%;
+}
+.article-item .article-right .article-title a{
+    font-size: 18px;
+    color: #444;
+}
+.article-item .article-right .article-title a:hover{
+    color: rgb(0, 150, 136);
+}
+.article-item .article-right .article-content{
+    overflow: hidden;
+    max-height: 75px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.article-item .article-footer{
+    margin-top: 10px;
+    font-size: 13px;
+}
+.article-item .article-footer span{
+    margin-right: 14px;
+}
+.article-item .article-footer .article-viewinfo{
+    float: right;
+}

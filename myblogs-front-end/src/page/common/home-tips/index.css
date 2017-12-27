@@ -1,0 +1,27 @@
+/*
+* @Author: cghsir
+* @Date:   2017-12-26 15:07:22
+* @Last Modified by:   cghsir
+* @Last Modified time: 2017-12-26 15:07:44
+*/
+/* 站点通知 */
+.home-tips{
+    padding: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    font-size: 13px;
+    background: #FFFFFF;
+}
+.home-tips i{
+    float: left;
+    color: #009688;
+    font-size: 17px;
+}
+.home-tips .tip-con{
+    margin-left: 20px;
+    height: 17px;
+    line-height: 17px;
+}
+.home-tips .tip-item{
+    float: left;
+}

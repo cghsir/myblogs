@@ -1,0 +1,44 @@
+/*
+* @Author: cghsir
+* @Date:   2017-12-26 15:03:31
+* @Last Modified by:   cghsir
+* @Last Modified time: 2017-12-26 15:04:19
+*/
+/* 浮动查询按钮 */
+.search-con{
+    position: fixed;
+    z-index: 1000;
+    background: #23262E;
+    opacity:0.9;
+    font-size: 25px;
+    color: rgba(255,255,255,.7);
+    width: 300px;
+    height: 52px;
+    line-height: 0px;
+    top: 0;
+    right: -250px;
+    border: 1px solid #23262E;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.search-con:hover{
+    right: -1px;
+    color: #fff;
+    transition: all 0.5s linear;
+}
+.search-con .icon-con{
+    float: left;
+    padding: 14px 11px 5px 5px;
+}
+
+.search-con .icon-con .fa-search{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.search-con .search-input{
+    width: 244px;
+    height: 100%;
+    border-style: none;
+    outline: none;
+    font-size: 30px;
+}
