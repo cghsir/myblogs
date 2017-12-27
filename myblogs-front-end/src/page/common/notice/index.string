@@ -1,0 +1,22 @@
+<ul class="notice-header">
+	<li class="notice-item active" data-index="1">
+		<i class="fa fa-comments"></i>
+		网站公告
+	</li>
+	<li class="notice-item" data-index="2">
+		<i class="fa fa-plus"></i>
+		加入我们
+	</li>
+	<li class="notice-item" data-index="3">
+		<i class="fa fa-volume-control-phone"></i>
+		联系站长</li>
+</ul>
+<div class="notice-content 1 active">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，我是第一页内容，
+</div>
+<div class="notice-content 2 ">
+	加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!加入我们吧!
+</div>
+<div class="notice-content 3 ">
+	联系我
+</div>

@@ -2,7 +2,7 @@
 * @Author: cghsir
 * @Date:   2017-12-26 15:12:46
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-27 10:21:53
+* @Last Modified time: 2017-12-27 13:49:06
 */
 require('./index.css');
 var template = require('./index.string');
@@ -69,12 +69,11 @@ var page = {
 	loadIndexArticle : function(){
 		var _this 		= this
 			$aritcleCon = $('.article-con');
-		_cc.show();
+		_cc.show($aritcleCon);
 		setTimeout(function(){
 			var html = _cc.renderHtml(template,_this.data);
 			$aritcleCon.html(html);
-			_cc.hide();
-		},800)
+		},800);
 	}
 }
 $(function(){

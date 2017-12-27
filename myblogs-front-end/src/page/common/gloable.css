@@ -2,7 +2,7 @@
 * @Author: cghsir
 * @Date:   2017-12-25 15:06:16
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-26 16:30:52
+* @Last Modified time: 2017-12-27 13:49:49
 */
 *{
     margin: 0;
@@ -110,7 +110,7 @@ input[type='checkbox']{
     padding: 0 10px;
 }
 .loading{
-    margin: 10px auto;
+    margin: 50px auto;
     display: block;
     width: 35px;
     height: 35px;
@@ -154,15 +154,16 @@ input[type='checkbox']{
 }
 /* 文章item */
 .article-con{
-    width: 773px;
+    margin-top: 20px;
+    min-height: 500px;
 }
 
 
 .sider-con{
-    width: 273px;
-    background: #ccc;
+    width: 348px;
+    background: #FFFFFF;
     float: right;
-    min-height: 400px;
+    /*min-height: 400px;*/ 
 }
 .footer{
     font-size: 14px;
