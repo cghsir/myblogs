@@ -2,12 +2,14 @@
 * @Author: cghsir
 * @Date:   2017-12-27 10:54:40
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-27 13:02:49
+* @Last Modified time: 2017-12-27 15:49:14
 */
 .sider-con .notice{
 	height: 215px;
 	overflow: hidden;
 	color: #777;
+	margin-bottom: 20px;
+	background: #FFFFFF;
 }
 .sider-con .notice .notice-header{
 	display: inline-block;

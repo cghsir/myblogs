@@ -2,7 +2,7 @@
 * @Author: cghsir
 * @Date:   2017-12-26 15:03:31
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-26 15:04:19
+* @Last Modified time: 2017-12-27 16:09:10
 */
 /* 浮动查询按钮 */
 .search-con{
@@ -40,5 +40,5 @@
     height: 100%;
     border-style: none;
     outline: none;
-    font-size: 30px;
+    font-size: 20px;
 }

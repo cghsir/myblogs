@@ -2,14 +2,14 @@
 * @Author: cghsir
 * @Date:   2017-12-25 15:06:16
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-27 13:49:49
+* @Last Modified time: 2017-12-27 15:48:40
 */
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    background-color: #F7F7F7;
+    background-color: #F9F9F9;
     color: #999;
     font-family: 'Ubuntu Mono',"PingFang SC","Lantinghei SC","Microsoft YaHei",arial,"\5b8b\4f53",sans-serif,tahoma;
     letter-spacing: 1.5px;
@@ -161,7 +161,6 @@ input[type='checkbox']{
 
 .sider-con{
     width: 348px;
-    background: #FFFFFF;
     float: right;
     /*min-height: 400px;*/ 
 }

@@ -1,0 +1,44 @@
+/*
+* @Author: cghsir
+* @Date:   2017-12-27 14:52:07
+* @Last Modified by:   cghsir
+* @Last Modified time: 2017-12-27 15:48:59
+*/
+.sider-con .about-con{
+	padding: 0 15px;	
+	height: 340px;
+	overflow: hidden;
+	text-align: center;
+	background: #FFFFFF;
+}
+.sider-con .about-con .me{
+	margin: 20px auto 5px;
+	width: 100px;
+	height: 100px;
+	background: red;
+	overflow: hidden;
+}
+.sider-con .about-con .me img{
+	width: 100%;
+	height: 100%;
+}
+.sider-con .about-con .nickname {
+	color: rgb(102, 102, 102);
+	font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+.sider-con .about-con .gushi{
+	font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.sider-con .about-con .word{
+    margin: 13px auto;
+    font-size: 18px;
+    width: 90%;
+}
+.sider-con .about-con .address{
+	color: #808080;
+	font-size: 13px;
+}
