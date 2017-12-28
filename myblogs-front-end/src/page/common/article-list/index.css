@@ -2,7 +2,7 @@
 * @Author: cghsir
 * @Date:   2017-12-26 15:12:53
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-27 14:46:58
+* @Last Modified time: 2017-12-28 16:23:34
 */
 .article-item{
     padding: 15px;
@@ -38,7 +38,7 @@
 }
 .article-item .article-right .article-content{
     overflow: hidden;
-    max-height: 75px;
+    max-height: 68px;
     margin-top: 10px;
     font-size: 14px;
 }

@@ -2,5 +2,39 @@
 * @Author: cghsir
 * @Date:   2017-12-25 15:08:00
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-25 15:08:00
+* @Last Modified time: 2017-12-28 15:40:29
 */
+.banner-con{
+	height: 215px;
+	border-radius: 5px;
+    overflow: hidden;
+}
+.banner-con img{
+	width: 772px;
+	height: 215px;
+	object-fit:cover;
+}
+/* banner的前一张和后一张 */
+.banner-con .banner-arrow{
+	position: absolute;
+	top: 85px;
+	width: 30px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	background: #ccc;
+	background: rgba(0,0,0,.2);
+	cursor: pointer;
+}
+.banner-con .banner-arrow:hover{
+	background: #aaa;
+	background: rgba(0,0,0,.5);
+}
+.banner-con .banner-arrow.prev{
+	left: 0;
+}
+.banner-con .banner-arrow.next{
+	right: 0;
+}

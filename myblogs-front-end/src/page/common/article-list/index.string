@@ -1,7 +1,7 @@
 {{#list}}
 <div class="article-item shadow">
 	<div class="article-left">
-		<img src="http://www.haoracle.com/uploads/allimg/160705/1-160F5141233H8.jpg" alt="">
+		<img src="{{img}}" alt="">
 	</div>
 	<div class="article-right">
 		<div class="article-title">

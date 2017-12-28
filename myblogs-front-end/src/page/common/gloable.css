@@ -2,7 +2,7 @@
 * @Author: cghsir
 * @Date:   2017-12-25 15:06:16
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-28 13:38:43
+* @Last Modified time: 2017-12-28 16:40:09
 */
 *{
     margin: 0;
@@ -13,6 +13,7 @@ body{
     color: #999;
     font-family: 'Ubuntu Mono',"PingFang SC","Lantinghei SC","Microsoft YaHei",arial,"\5b8b\4f53",sans-serif,tahoma;
     letter-spacing: 1.5px;
+    line-height: 1.5;
     /*background: #f6f6f6;
     font: 12px/1.5 tahoma, arial, Microsoft YaHei, sans-serif;*/
 }
@@ -164,10 +165,13 @@ input[type='checkbox']{
     float: right;
     /*min-height: 400px;*/ 
 }
+/* 底部 */
 .footer{
-    font-size: 14px;
-    background: #eee;
+    background: #2F4056;
     text-align: center;
+    padding: 25px 0;
+    line-height: 1.7;
+    font-size: 15px;
 }
 
 .back-top{
@@ -181,6 +185,7 @@ input[type='checkbox']{
     background: #9F9F9F;
     border-radius: 5px;
     color: #fff;
+    line-height: 1.3;
 }
 .back-top:hover{
     border-radius: 100px;

@@ -1,0 +1,35 @@
+<div class="banner">
+    <ul>
+        <li>
+			<a href="./index.html" target="_blank">
+				<img class="banner-img" src="../../image/banner/banner22.jpg">
+			</a>
+        </li>
+        <li>
+			<a href="./index.html" target="_blank">
+				<img class="banner-img" src="../../image/banner/banner8.jpg">
+			</a>
+        </li>
+        <li>
+			<a href="./index.html" target="_blank">
+				<img class="banner-img" src="../../image/banner/banner9.jpg">
+			</a>
+        </li>
+        <li>
+			<a href="./index.html" target="_blank">
+				<img class="banner-img" src="../../image/banner/banner21.jpg">
+			</a>
+        </li>
+        <li>
+			<a href="./index.html" target="_blank">
+				<img class="banner-img" src="../../image/banner/banner10.jpg">
+			</a>
+        </li>
+    </ul>
+    <div class="banner-arrow prev">
+    	<i class="fa fa-angle-left"></i>
+    </div>
+    <div class="banner-arrow next">
+    	<i class="fa fa-angle-right"></i>
+    </div>
+</div>

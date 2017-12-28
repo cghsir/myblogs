@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<%= require('html-loader!./layout/header-common.html')  %>
 	<title><%= htmlWebpackPlugin.options.title%> - Java全栈博客系统  - cghsir</title>
 </head>
 <body>
@@ -18,7 +18,10 @@
 		<!-- 主内容区开始 -->
 		<div class="pag-con">
 			<!-- banne开始 -->
-			<%= require('html-loader!./layout/banner.html')  %>
+			<div class="banner-con">
+				<!-- <img src="http://bpic.588ku.com/back_pic/04/41/93/395851263bea989.jpg!ww800"> -->
+				<div class="loading"></div>
+			</div>
 			<!-- banner结束 -->
 			<!-- <span class="article-header-title">
 					最新发布

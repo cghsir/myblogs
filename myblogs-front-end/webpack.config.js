@@ -2,7 +2,7 @@
 * @Author: cghsir
 * @Date:   2017-12-25 15:00:05
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-26 13:16:32
+* @Last Modified time: 2017-12-28 17:31:16
 */
 var webpack             = require('webpack');
 var ExtractTextPlugin   = require('extract-text-webpack-plugin');
@@ -30,9 +30,9 @@ var config = {
         'index'             : ['./src/page/index/index.js'],
     },
     output: {
-        path: './dist',
-        publicPath : '/dist',
-        filename: 'js/[name].js'
+        path        : __dirname + '/dist/',
+        publicPath  : 'dev' === WEBPACK_ENV ? '/dist/' : '//s.myblogs.org/myblogs/dist/',
+        filename    : 'js/[name].js'
     },
     externals : {
         'jquery' : 'window.jQuery'
