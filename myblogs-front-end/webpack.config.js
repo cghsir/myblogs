@@ -31,7 +31,7 @@ var config = {
     },
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : 'dev' === WEBPACK_ENV ? '/dist/' : '//s.myblogs.org/myblogs/dist/',
+        publicPath  : 'dev' === WEBPACK_ENV ? '/dist/' : '//admin.myblogs.org/myblogs/dist/',
         filename    : 'js/[name].js'
     },
     externals : {
