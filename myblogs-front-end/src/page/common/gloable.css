@@ -2,7 +2,7 @@
 * @Author: cghsir
 * @Date:   2017-12-25 15:06:16
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-27 15:48:40
+* @Last Modified time: 2017-12-28 13:38:43
 */
 *{
     margin: 0;
@@ -169,5 +169,23 @@ input[type='checkbox']{
     background: #eee;
     text-align: center;
 }
+
+.back-top{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+    font-size: 50px;
+    opacity: .9;
+    padding: 0 15px;
+    background: #9F9F9F;
+    border-radius: 5px;
+    color: #fff;
+}
+.back-top:hover{
+    border-radius: 100px;
+    transition: border-radius 1s;
+}
+
 
 

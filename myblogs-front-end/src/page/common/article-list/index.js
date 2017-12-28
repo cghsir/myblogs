@@ -2,7 +2,7 @@
 * @Author: cghsir
 * @Date:   2017-12-26 15:12:46
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-27 13:49:06
+* @Last Modified time: 2017-12-28 11:46:32
 */
 require('./index.css');
 var template = require('./index.string');
@@ -13,6 +13,46 @@ var page = {
 	data : {
 		list : [
 			{
+				title: '我是标题',
+				content: '我是内容',
+				time: '2017-12-26',
+				user: 'cghsir',
+				tag: '我是标签',
+				comment : 6,
+				see	: 273
+			},{
+				title: '我是标题',
+				content: '我是内容',
+				time: '2017-12-26',
+				user: 'cghsir',
+				tag: '我是标签',
+				comment : 6,
+				see	: 273
+			},{
+				title: '我是标题',
+				content: '我是内容',
+				time: '2017-12-26',
+				user: 'cghsir',
+				tag: '我是标签',
+				comment : 6,
+				see	: 273
+			},{
+				title: '我是标题',
+				content: '我是内容',
+				time: '2017-12-26',
+				user: 'cghsir',
+				tag: '我是标签',
+				comment : 6,
+				see	: 273
+			},{
+				title: '我是标题',
+				content: '我是内容',
+				time: '2017-12-26',
+				user: 'cghsir',
+				tag: '我是标签',
+				comment : 6,
+				see	: 273
+			},{
 				title: '我是标题',
 				content: '我是内容',
 				time: '2017-12-26',
