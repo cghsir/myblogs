@@ -2,7 +2,7 @@
 * @Author: cghsir
 * @Date:   2017-12-25 15:06:16
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-28 16:40:09
+* @Last Modified time: 2017-12-29 11:02:40
 */
 *{
     margin: 0;
@@ -135,10 +135,6 @@ input[type='checkbox']{
 }
 
 
-
-
-
-
 /* 页面内容容器 */
 .pag-con{
     width: 772px;
@@ -155,7 +151,6 @@ input[type='checkbox']{
 }
 /* 文章item */
 .article-con{
-    margin-top: 20px;
     min-height: 500px;
 }
 

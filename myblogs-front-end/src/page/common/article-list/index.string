@@ -5,7 +5,7 @@
 	</div>
 	<div class="article-right">
 		<div class="article-title">
-			<a href="./article.html?articleId=002" class="link" target="_blank">{{title}}</a>
+			<a href="./article.html?articleId=002&articleTitle={{encodeTitle}}" class="link" target="_blank">{{title}}</a>
 		</div>
 		<div class="article-content">
 			<p>

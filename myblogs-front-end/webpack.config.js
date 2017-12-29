@@ -2,7 +2,7 @@
 * @Author: cghsir
 * @Date:   2017-12-25 15:00:05
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-28 17:31:16
+* @Last Modified time: 2017-12-29 12:54:34
 */
 var webpack             = require('webpack');
 var ExtractTextPlugin   = require('extract-text-webpack-plugin');
@@ -28,11 +28,13 @@ var config = {
     entry: {
         'common'            : ['./src/page/common/index.js'],
         'index'             : ['./src/page/index/index.js'],
+        'article'             : ['./src/page/article/index.js']
     },
     output: {
         path        : __dirname + '/dist/',
         publicPath  : 'dev' === WEBPACK_ENV ? '/dist/' : '//admin.myblogs.org/myblogs/dist/',
-        filename    : 'js/[name].js'
+        // publicPath  : '/dist/',
+        filename    : '/js/[name].js'
     },
     externals : {
         'jquery' : 'window.jQuery'
@@ -63,6 +65,7 @@ var config = {
         new ExtractTextPlugin("css/[name].css"),
         // html模板的处理
         new HtmlWebpackPlugin(getHtmlConfig('index', '首页')),
+        new HtmlWebpackPlugin(getHtmlConfig('article', '文章页'))
     ]
 };
 

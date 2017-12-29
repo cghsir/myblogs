@@ -1,0 +1,22 @@
+/*
+* @Author: cghsir
+* @Date:   2017-12-29 11:02:49
+* @Last Modified by:   cghsir
+* @Last Modified time: 2017-12-29 11:30:21
+*/
+/* 面包屑导航 */
+.pag-wrap .crumb{
+    padding: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    font-size: 13px;
+    background: #FFFFFF;
+    border-left: 5px solid rgb(0, 150, 136);
+    border-radius: 3px;
+}
+.pag-wrap .crumb a{
+    color: #666;
+}
+.pag-wrap .crumb a:hover{
+    color: #01AAED!important;
+}

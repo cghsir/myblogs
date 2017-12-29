@@ -1,0 +1,50 @@
+/*
+* @Author: cghsir
+* @Date:   2017-12-29 10:29:29
+* @Last Modified by:   cghsir
+* @Last Modified time: 2017-12-29 12:44:39
+*/
+.article-con{
+	padding: 15px;
+	background: #fff;
+	margin-bottom: 15px;
+}
+.article-con .article-title{
+	text-align: center;
+    margin: 20px 0px;
+    color: white;
+    font-weight: 700;
+    text-shadow: 0 0 8px #000000;
+    font-size: 24px;
+}
+.article-con .article-basic-info{
+    border: 1px dashed #808080;
+    font-size: 13px;
+    color: #808080;
+    padding: 5px 0;
+    font-family: SimSun;
+    text-align: center;
+    margin: 0 0 10px;
+}
+.article-con .article-content{
+	padding: 10px 5px;
+    font-size: 18px;
+    color: #444;
+    font-family: 楷体;
+    line-height: 1.8;
+}
+.article-con hr{
+	background-color: #eee!important;
+    color: #666!important;
+    height: 1px;
+    margin: 10px 0;
+    border: 0;
+    background-color: #e2e2e2;
+    clear: both;
+}
+.article-con .article-license{
+	font-size: 18px;
+    color: #444;
+    font-family: 楷体;
+    line-height: 1.8;
+}

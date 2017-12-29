@@ -2,7 +2,7 @@
 * @Author: cghsir
 * @Date:   2017-12-26 15:12:46
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-28 16:02:29
+* @Last Modified time: 2017-12-29 11:22:36
 */
 require('./index.css');
 var template = require('./index.string');
@@ -79,6 +79,10 @@ var page = {
 		var _this 		= this
 			$aritcleCon = $('.article-con');
 		_cc.show($aritcleCon);
+		for(var i in _this.data.list){
+			var temp = _this.data.list[i];
+			temp.encodeTitle = encodeURIComponent(temp.title);
+		}
 		setTimeout(function(){
 			var html = _cc.renderHtml(template,_this.data);
 			$aritcleCon.html(html);

@@ -2,7 +2,7 @@
 * @Author: cghsir
 * @Date:   2017-12-26 15:16:51
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-27 10:21:31
+* @Last Modified time: 2017-12-29 11:12:29
 */
 // html渲染插件
 var Hogan = require('hogan.js');
