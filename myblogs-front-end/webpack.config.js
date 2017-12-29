@@ -2,7 +2,7 @@
 * @Author: cghsir
 * @Date:   2017-12-25 15:00:05
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-29 12:54:34
+* @Last Modified time: 2017-12-29 13:14:30
 */
 var webpack             = require('webpack');
 var ExtractTextPlugin   = require('extract-text-webpack-plugin');

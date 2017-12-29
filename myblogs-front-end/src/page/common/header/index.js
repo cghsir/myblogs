@@ -2,7 +2,7 @@
 * @Author: cghsir
 * @Date:   2017-12-26 14:51:31
 * @Last Modified by:   cghsir
-* @Last Modified time: 2017-12-27 10:15:04
+* @Last Modified time: 2017-12-29 13:13:50
 */
 require('./index.css');
 var _cc = require('util/cc.js');
@@ -19,7 +19,12 @@ var page = {
 		this.selectMenu();
 	},
 	bindEvent : function(){
-
+		$('.fa-qq').click(function(){
+			alert("QQ登录还在开发中!");
+		});
+		$('.fa-wechat').click(function(){
+			alert("QQ登录还在开发中!");
+		});
 	},
 	// 设置选中菜单
 	selectMenu : function(){
